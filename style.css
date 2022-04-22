@@ -10,6 +10,10 @@ body{
     font-family: 'poppins',sans-serif;
 }
 /* Navbar */
+.navbar{
+  margin-top: 16px;
+  font-size: 16px;
+}
 .nav-link{
   color: var(--acsentColor) !important;
 }
@@ -19,6 +23,7 @@ body{
 }
 .btn-primary, 
 .btn-primary:hover {
+  font-size: 16px;
     background-color: var(--secondaryColor);
     border-color: var(--secondaryColor);
 }
@@ -36,6 +41,10 @@ body{
 
 /*isi konten*/
 
+.img-fluid{
+  margin-right: 200px;
+}
+
 .login{
   color: var(--secondaryColor);
 }
@@ -44,3 +53,15 @@ body{
   color: #464646;
 }
 /*end konten*/
+
+@media (max-width: 880px) { 
+  .card{
+    margin-left: -120px;
+    margin-right: 20px;
+    width: 360px;
+  }
+  .row{
+    position: center;
+  }
+ }
+
