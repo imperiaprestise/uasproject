@@ -1,131 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
-    crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Edutech </title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Edutech </title>
 </head>
+
 <body>
-    <section class="vh-100" style="background-color: #909C6C;">
+  <section class="vh-100" style="background-color: #909C6C;">
     <div class="container mt-40">
 
-    <!--Navbar-->
-    <!--Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark " id="mainNav">
-      <div class="container px-1">
-        <a class="navbar-brand fw-bold md-none sm-none" href="#page-top"><img src="img/logoo.png" alt="LOGO"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+      <!--Navbar-->
+      <!--Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-dark " id="mainNav">
+        <div class="container rem-0.05">
+          <a class="navbar-brand fw-bold md-none sm-none" href="#page-top"><img loading="lazy" src="img/logoo.png" alt="LOGO"
+              style="height: 2rem;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-              <ul class="navbar-nav d-small-block">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   Course Catalog
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Front-end</a></li>
-                    <li><a class="dropdown-item" href="#">Mobile Application</a></li>
-                    <li><a class="dropdown-item" href="#">UI/UX Design</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   University List
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Universitas Gadjah Mada</a></li>
-                    <li><a class="dropdown-item" href="#">Universitas Indonesia</a></li>
-                    <li><a class="dropdown-item" href="#">Institut Teknologi Bandung</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">Contact</a>
-                </li>
-              </ul>
-            </div>
-            
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                      <a class="nav-link me-lg-3" href="#">Login</a>
-                  </li>
-              </ul>
-              <a class="btn btn-primary rounded-0 btn-outline" href="#" role="button">Register</a>
-              
-              <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
+            <ul class="navbar-nav d-small-block">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Course Catalog
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Front-end</a></li>
+                  <li><a class="dropdown-item" href="#">Mobile Application</a></li>
+                  <li><a class="dropdown-item" href="#">UI/UX Design</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  University List
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Universitas Gadjah Mada</a></li>
+                  <li><a class="dropdown-item" href="#">Universitas Indonesia</a></li>
+                  <li><a class="dropdown-item" href="#">Institut Teknologi Bandung</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link me-lg-3" href="#">Login</a>
+              </li>
+            </ul>
+            <a class="btn btn-primary rounded-0 btn-outline" href="#" role="button">Register</a>
+
+            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
                 class="icon-menu h3"></span></a>
-            </div>
-      </div>
-  </nav>
+          </div>
+        </div>
+      </nav>
 
-    <!--End Navbar-->
+      <!--End Navbar-->
 
-    <!--Isi konten-->
-        <div class="container mt-14 p-5">
-            <div class="row d-flex justify-content-center align-items-center h-100"> 
-                <div class="gambar col-6 col-xl-5 col-sm-12 d-none  d-md-block">
-                    <img src="img/undraw_mobile_login_re_9ntv 1.png" class="img-fluid mt-10" alt="gambar">
-                </div>
-                <div class="col-6 col-md-6 col-sm-8 ">
-                  <div class="card text-default gx-5" style="border-radius: 1rem;">
-                      <div class="card-body p-4 text-center"> 
-                       <div class="mb-md-5 mt-md-4 "> 
-                      <h2 class="fw-bold mb-2 login">Register</h5>
+      <!--Isi konten-->
+      <div class="container mt-14 p-5">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="gambar col-6 col-xl-5 col-sm-12 d-none  d-md-block">
+            <img loading="lazy" src="img/undraw_mobile_login_re_9ntv 1.png" class="img-fluid mt-10" alt="gambar">
+          </div>
+          <div class="col-6 col-md-6 col-sm-8 ">
+            <div class="card text-default gx-5" style="border-radius: 1rem;">
+              <div class="card-body p-4 text-center">
+                <div class="mb-md-5 mt-md-4 ">
+                  <h2 class="fw-bold mb-2 login">Register</h5>
 
-                      <div class="mb-2 text-start">
-                          <label for="exampleFormControlInput1" class="form-label">Full Name</label>
-                          <input type="text" class="form-control" id="exampleFormControlInput1" >
-                      </div>
-                      <div class="mb-2 text-start">
-                        <label for="exampleFormControlInput1" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" >
+                    <div class="mb-2 text-start">
+                      <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                      <input type="text" class="form-control" id="exampleFormControlInput1">
                     </div>
-                      <div class="mb-2 text-start">
-                          <label for="inputPassword" class="form-label">Password</label>
-                          <input type="password" class="form-control" id="inputPassword" >
-                      </div>
-
-                      <button class="btn btn-primary rounded-0 btn-outline" type="submit"><strong>Register </strong></button>
-                      </div>
+                    <div class="mb-2 text-start">
+                      <label for="exampleFormControlInput1" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1">
                     </div>
-                  </div>
-                  </div>
+                    <div class="mb-2 text-start">
+                      <label for="inputPassword" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword">
+                    </div>
 
+                    <button class="btn btn-primary rounded-0 btn-outline" type="submit"><strong>Register
+                      </strong></button>
                 </div>
               </div>
             </div>
+          </div>
+
         </div>
-        <!--End konten-->
+      </div>
+    </div>
+    </div>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-4 offset-1">
+          <img loading="lazy" src="img/logoo.png" alt="LOGO" style="height: 2rem;">
+          <p><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, inventore ipsa? Voluptatum ab,
+            obcaecati ut.</p>
+        </div>
+
+        <div class="col-2">
+          <h5>Our Campus</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Academic</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">News</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Our Interns</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Our Leaders</a></li>
+          </ul>
+        </div>
+
+        <div class="col-2">
+          <h5>Our Courses</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mobile Apps</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Website Developer</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Front-end</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Data Science</a></li>
+          </ul>
+        </div>
+
+        <div class="col-2">
+          <h5>Contact</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Help Center</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">News</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-between py-4 my-4 border-top">
+        <p>Copyright &copy; 2022 Edutech, Inc. All rights reserved.</p>
+      </div>
+    </div>
 
     </div>
-    </section>
+  </section>
 
 
 
 
 
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src=></script>
-     <!-- Option 2: Separate Popper and Bootstrap JS -->
-     <!--
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src=></script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
      -->
 
-     
-</body>
-</html>
 
+</body>
+
+</html>
