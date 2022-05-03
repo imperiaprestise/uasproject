@@ -144,7 +144,7 @@ hr{
   margin-top: 0;
 }
 #popular1{
-  height: 980px;
+  height: 1100px;
 }
 
 .popularrow{
@@ -195,6 +195,9 @@ h5{
 
 
 /* silabus */
+#silabus{
+    height: 800px;
+}
 #contact{
     height: 500px;
 }
@@ -202,18 +205,13 @@ h3{
   margin-top: 10px;
   margin-left: 5px;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 24px;
   color: #000000;
-}
-p{
-  margin-top: 14px;
-  margin-left: 5px;
-  font-size: 20px;
 }
 .p1{
   margin-top: 10px;
   margin-left: 5px;
-  font-size: 20px;
+  font-size: 16px;
 
 }
 
@@ -409,6 +407,9 @@ video{
   }
   #homepage{
     height: max-content;
+  }
+  #contact{
+      height: 900px;
   }
 
 
