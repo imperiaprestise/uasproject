@@ -198,6 +198,9 @@ width: 360px;
 #silabus{
   height: 800px;
 }
+#silabuspage{
+  height: 800px;
+}
 #contact{
   height: 500px;
 }
@@ -219,7 +222,27 @@ margin-left: 5px;
 font-size: 16px;
 
 }
-
+/*univ-list*/
+#univlist{
+  height: 1000px;
+}
+#university-list{
+  height: 960px;
+}
+.carduniv{
+  margin-top: 20px;
+}
+.card-img-top1{
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+.subjudul{
+  margin: auto;
+  font-size: 16px;
+  font-weight: 400;
+  color: #c4c4c4;
+  margin-bottom: 6px;
+}
 
 /*form biodata */
 .kontak{
@@ -266,13 +289,13 @@ font-weight: bold;
 color: var(--acsentColor);
 }
 .garisfooter{
-width: 136px;
+width: 130px;
 margin-left: 0;
 margin-top: -10px;
 margin-bottom: 30px;
 }
 .garisfooter2{
-width: 130px;
+width: 127px;
 margin-left: 0;
 margin-top: -10px;
 margin-bottom: 30px;
@@ -338,10 +361,10 @@ background-color: #ffffff00;
   margin-top: auto;
 }
 .btn-primary1{
-  width: 100px;
-  height: 40px;
-  background-color: var(--secondaryColor);
-  border-color: var(--secondaryColor);
+  width: 340px;
+  height: 60px;
+  background-color: var(--mainColor);
+  border-color: var(--mainColor);
 }
 .buttoncrs{
   color: #fff;
@@ -351,15 +374,19 @@ background-color: #ffffff00;
   font-size: 18px;
   margin-left: 68px;
   align-items: center;
+  margin-top: 20px;
   margin-bottom: 20px;
   background-color: var(--mainColor);
   border-color: var(--mainColor);
+}
+.buttoncrs:active{
+  color: var(--secondaryColor);
 }
 #coursepage{
   height: max-content;
 }
 #popular1{
-  height: 2200px;
+  height: 2600px;
 }
 a{
   align-items: center;
@@ -394,7 +421,10 @@ a:hover{
   height: 160px;
 }
 .feature-1{
-  margin-bottom: 60px;
+  margin-bottom: 5px;
+}
+.popularrow1{
+  margin-top: 5px;
 }
 
 .img-fluid{
@@ -431,6 +461,30 @@ hr{
     margin-top: 14px;
     width: 340px;
     height: 46px;
+}
+#silabuspage{
+  height: 760px;
+}
+video{
+  margin-top: 12px;
+  width: 340px;
+  height: 200px;
+}
+h3{
+  margin-left: auto;
+}
+.p1{
+  margin-left: auto;
+  text-align: justify;
+}
+.carduniv{
+  width: 344px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#university-list{
+  height: 1560px;
 }
 
 }
