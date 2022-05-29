@@ -9,7 +9,7 @@
     rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
     crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./shadow.css" />
@@ -23,7 +23,7 @@
     <section id="homepage">
     <nav class="navbar navbar-expand-lg navbar-dark " id="mainNav">
       <div class="container px-1">
-        <a class="logo navbar-brand fw-bold md-none sm-none" href="#page-top"><img class="logoo" src="img/logoo.png" alt="LOGO"></a>
+        <a class="logo navbar-brand fw-bold md-none sm-none" href="#page-top"><img class="logoo" src="img/edutechlogo.png" alt="LOGO"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -38,9 +38,9 @@
                    Course Catalog
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Front-end</a></li>
-                    <li><a class="dropdown-item" href="#">Mobile Application</a></li>
-                    <li><a class="dropdown-item" href="#">UI/UX Design</a></li>
+                    <li><a class="dropdown-item" href="course.html">Front-end</a></li>
+                    <li><a class="dropdown-item" href="course.html">Mobile Application</a></li>
+                    <li><a class="dropdown-item" href="course.html">UI/UX Design</a></li>
                   </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -48,9 +48,9 @@
                    University List
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Universitas Gadjah Mada</a></li>
-                    <li><a class="dropdown-item" href="#">Universitas Indonesia</a></li>
-                    <li><a class="dropdown-item" href="#">Institut Teknologi Bandung</a></li>
+                    <li><a class="dropdown-item" href="university-list.html">Universitas Gadjah Mada</a></li>
+                    <li><a class="dropdown-item" href="universitas-indonesia.html">Universitas Indonesia</a></li>
+                    <li><a class="dropdown-item" href="universitas-indonesia.html">Institut Teknologi Bandung</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
@@ -84,19 +84,25 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-90" src="img/image 1.png" alt="First slide">
+            <img class="d-block w-90" style="margin: 0 auto;" src="img/image 1.png" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
                 <h1 class="textslides"> Academics <br> University</h1>
               </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/image 1.png" alt="Second slide">
+          <div id="carouselitem" class="carousel-item">
+            <img class="d-block w-90" style="margin: 0 auto;" src="img/slides2.png" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="textslides"> Academics <br> University</h1>
+            </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Third slide">
+            <img class="d-block w-90" style="margin: 0 auto;" src="img/slides3.png" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="textslides"> Academics <br> University</h1>
+            </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#carouselitem" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
@@ -112,8 +118,7 @@
               <div class="container">
                   <div class="row justify-content-center">
                       <div class="col-10">
-                          <h1 class="judul text-center mt-4" style="color: black; margin-top: 300px;">Why Academics Work</h1>
-                          <hr style="height: 5px; margin-bottom: 140px;">
+                          <h1 class="judul text-center mt-4" style="margin-bottom: 120px;">Why Academics Work</h1>
                       </div>
                   </div>
 
@@ -125,7 +130,7 @@
                         </div>
                         <div class="feature-1-content">
                           <div class="pic">
-                            <img src="img/personal.png" class="img-fluid" alt="User Pic">
+                            <img src="img/personal (2).png" class="img-fluid" alt="User Pic">
                           </div>
                           <h2 style="font-size: 26px; text-align: center; font-weight: 600px; color: black;">Personalize Learning</h2>
                           <p class="card-text">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit <br> morbi hendrerit elit</p>
@@ -173,42 +178,51 @@
       <!--end academics-->
 
       <!-- popular courses -->
-      <section id="popular" style="background-color: white;">
+      <section id="popular" style="background-color: #ececec;">
         <div class="container-fluid d-none  d-md-block">
           <div class="container">
               <div class="row justify-content-center">
                   <div class="col-10">
-                      <h1 class="judul text-center " style="color: black; margin-top: 40px;">Popular Courses</h1>
-                      <hr class="garis" style="height: 5px;">
+                      <h1 class="judul text-center " >Popular Courses</h1>
                   </div>
               </div>
 
               <div class="popularrow row ">
-                  <div class="cards col-lg-4 col-md-6 mb-4 mb-lg-0">
-                    <img src="img/mobilee.png" class="card-img-top" alt="mobile">
-                    <div class="feature-1 border">
-                      <button class="buttoncourses btn btn-primary rounded-0 btn-outline" >Mobile Application </button>
+                  <div class="cards1 col-lg-3 col-md-4 ">
+                    <div class="gambarcard">
+                    <img src="img/mobilee.png" class="card-img-top"alt="mobile">
+                  </div>
+                    <div class="feature-1 ">
+                      <button class="buttoncourses btn btn-primary rounded-0 btn-outline">Mobile Application </button>
                       <h5>How To Create Mobile Apps <br> Using Iconic</h5>
-                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                      <p><a href="#" class="button btn btn-primary px-4 rounded-0">Follow Course</a></p>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestiae eaque, 
+                        id vitae porro sunt earum? Nobis, cum vero ipsa, nihil voluptas distinctio laboriosam suscipit odit </p>
+                      <p><a href="silabus.html" class="button btn btn-primary px-4 rounded-0">Follow Course</a></p>
                     </div>
                   </div>
-                  <div class="cards col-lg-4 col-md-6 mb-4 mb-lg-0">
+                  
+                  <div class="cards1 col-lg-3 col-md-4 ">
+                    <div class="gambarcard">
                     <img src="img/frontend.png" class="card-img-top" alt="frontend">
-                    <div class="feature-1 border">
+                    </div>
+                    <div class="feature-1">
                       <button class="buttoncourses btn btn-primary rounded-0 btn-outline" >Front-end </button>
                       <h5>How To Create Mobile Apps <br> Using Iconic</h5>
-                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      <p><a href="#" class="button btn btn-primary px-4 rounded-0">Follow Course</a></p>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestiae eaque, 
+                        id vitae porro sunt earum? Nobis, cum vero ipsa, nihil voluptas distinctio laboriosam suscipit odit </p>
+                      <p><a href="silabus.html" class="button btn btn-primary px-4 rounded-0">Follow Course</a></p>
                     </div>
                   </div>
-                  <div class="cards col-lg-4 col-md-6 mb-4 mb-lg-0">
+                  <div class="cards1 col-lg-3 col-md-4 ">
+                    <div class="gambarcard"> 
                     <img src="img/data science.png" class="card-img-top" alt="data science">
-                    <div class="feature-1 border">
+                  </div> 
+                  <div class="feature-1">
                       <button class="buttoncourses btn btn-primary rounded-0 btn-outline" >Data Science </button>
                       <h5>How To Create Mobile Apps <br> Using Iconic</h5>
-                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      <p><a href="#" class="button btn btn-primary px-4 rounded-0">Follow Course</a></p>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestiae eaque, 
+                        id vitae porro sunt earum? Nobis, cum vero ipsa, nihil voluptas distinctio laboriosam suscipit odit </p>
+                      <p><a href="silabus.html" class="button btn btn-primary px-4 rounded-0">Follow Course</a></p>
                     </div>
                   </div>
                 </div>
@@ -217,66 +231,61 @@
 
       </section>
 
-      <!-- end popular courses -->
-
-      <!-- footer -->
-
-      <div class="footer d-none  d-md-block">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3">
-              <p class="mb-4 mt-3"><img src="img/logoo.png" alt="Image" class="img-fluid"></p>
-              <p style="font-weight: 30px; color: #fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>  
-              <p ><a href="#" style="color: #383414;">Learn More</a></p>
-            </div>
-            <div class="col-lg-3">
-              <h4 class="footer-heading mt-4"><span>Our Campus</span></h3>
-              <hr class="garisfooter" style="height: 3px;">
-              <ul class="list-unstyled">
-                  <li><a class="list-unstyled" href="#">Acedemic</a></li>
-                  <li><a class="list-unstyled" href="#">News</a></li>
-                  <li><a class="list-unstyled" href="#">Our Interns</a></li>
-                  <li><a class="list-unstyled" href="#">Our Leadership</a></li>
-              </ul>
-            </div>
-            <div class="col-lg-3">
-                <h4 class="footer-heading mt-4"><span>Our Courses</span></h3>
-                  <hr class="garisfooter2" style="height: 3px;">
-                <ul class="list-unstyled">
-                    <li><a class="list-unstyled" href="#">Mobile Apps</a></li>
-                    <li><a class="list-unstyled" href="#">Website Developer</a></li>
-                    <li><a class="list-unstyled" href="#">Front-end</a></li>
-                    <li><a class="list-unstyled" href="#">Data Science</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-3">
-                <h4 class="footer-heading mt-4"><span>Contact</span></h3>
-                <hr class="garisfooter3" style="height: 3px;">
-                <ul class="list-unstyled">
-                    <li><a class="list-unstyled" href="#">Help Center</a></li>
-                    <li><a class="list-unstyled" href="#">News</a></li>
-                    <li><a class="list-unstyled" href="#">Our Interns</a></li>
-                </ul>
-            </div>
+      <!-- End Popular Courses -->
+<!-- Footer Start -->
+<div class="container-fluid px-sm-3 px-md-5">
+  <div class="row pt-5">
+      <div class="col-lg-3 col-md-6 mb-5">
+          <img src="img/edutechlogo.png" alt="gambar logo">
+          <p class="teksfooter" style="color: #fff; margin-top: 15px;">Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem sit sed elitr sit no, sed kasd et ipsum dolor duo dolor</p>
+          <div class="d-flex justify-content-start mt-4">
+              <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px; margin-right: 5px;" href="#"><i class="fab fa-twitter"></i></a>
+              <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;margin-right: 5px;" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;margin-right: 5px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
           </div>
-  
-          <div class="row">
-            <div class="col-12">
-              <div class="copyright">
-                  <p>
-                    Copyright ©2022 All rights reserved | This template is made with  by <a href="home.html" style="color: #383414;">kelompok 2 </a>
-
-                  </p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
-      
-  
-    </div>
-  </section>
-      <!-- end footer -->
+      <div class="col-lg-3 col-md-6 mb-5">
+          <h4 class="mb-4">Get In Touch</h4>
+          <p class="teksfooter">Dolor clita stet nonumy clita diam vero, et et ipsum diam labore</p>
+          <p style="color: #fff;"><i style="margin-right: 5px;" class="fa fa-map-marker-alt mr-2"></i>Pekanbaru, Riau</p>
+          <p style="color: #fff;"><i style="margin-right: 5px;" class="fa fa-phone-alt mr-2"></i>+628 345 67890</p>
+          <p style="color: #fff;"><i style="margin-right: 5px;" class="fa fa-envelope mr-2"></i>edutech@example.com</p>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-5">
+          <h4 class="text-white mb-4">Quick Links</h4>
+          <div class="d-flex flex-column justify-content-start">
+              <a class="text-white mb-2" href="#"><i style="margin-right: 5px;" class="fa fa-angle-right mr-5"></i>Home</a>
+              <a class="text-white mb-2" href="#"><i style="margin-right: 5px;" class="fa fa-angle-right mr-5"></i>Our Interns</a>
+              <a class="text-white mb-2" href="#"><i style="margin-right: 5px;" class="fa fa-angle-right mr-5"></i>Courses</a>
+              <a class="text-white mb-2" href="#"><i style="margin-right: 5px;" class="fa fa-angle-right mr-5"></i>Our Leadership</a>
+              <a class="text-white" href="#"><i style="margin-right: 5px;" class="fa fa-angle-right mr-2"></i>Contact Us</a>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-5">
+          <h4 class="text-white mb-4">Newsletter</h4>
+          <form action="">
+              <div class="form-group mb-2">
+                  <input type="text" class="form-control border-0" placeholder="Your Name" required="required" />
+              </div>
+              <div class="form-group mb-2">
+                  <input type="email" class="form-control border-0" placeholder="Your Email" required="required" />
+              </div>
+              <div>
+                  <button style="background-color: #383414; font-size: 18px; font-weight: 600;" class="btn btn-lg btn-secondary btn-block border-0" type="submit">Submit Now</button>
+              </div>
+          </form>
+      </div>
+  </div>
+</div>
+<div class="container-fluid bg-dark text-white py-4 px-sm-3 px-md-5">
+  <p class="m-0 text-center text-white">
+      &copy; <a class="text-white font-weight-medium" href="home.html">Edutech</a>. All Rights Reserved. Designed by
+      <a class="text-white font-weight-medium" href="https://htmlcodex.com">Kelompok 2</a>
+  </p>
+</div>
+<!-- Footer End -->
+
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
