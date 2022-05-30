@@ -405,7 +405,9 @@ margin-top: 30px;
   width: 370px;
   margin-left: 5px;
 }
-
+.cardya{
+  background-color: #fff;
+}
 
 @media (max-width: 880px) { 
 .card{
