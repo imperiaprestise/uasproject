@@ -39,11 +39,22 @@ color: var(--acsentColor) !important;
 color:var(--secondaryColor) !important;
 font-weight: 300;
 }
+.buttoncourses1{
+  color: #fff;
+}
 .btn-primary1{
 color: var(--acsentColor);
 font-size: 16px;
 background-color: var(--secondaryColor);
 border-color: var(--secondaryColor);
+}
+.btn-primary4, 
+.btn-primary4:hover {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 16px;
+  background-color: var(--secondaryColor);
+  border-color: var(--secondaryColor);
 }
 .btn-primary, 
 .btn-primary:hover {
@@ -411,6 +422,14 @@ font-size: 16px;
   background-color: var(--secondaryColor);
   border-color: var(--secondaryColor);
 }
+.btn-primary4{
+  color: #fff;
+  width: 300px;
+  height: 60px;
+  font-size: 16px;
+  background-color: var(--secondaryColor);
+  border-color: var(--secondaryColor);
+}
 .logo{
 margin-left: 10px;
 }
@@ -427,7 +446,9 @@ width: 310px;
 height: 50px;
 }
 .cardya{
-background-color: #ffffff00;
+background-color: #fff;
+width: 380px;
+margin-left: -128px;
 }
 .row{
   position: center;
@@ -438,8 +459,8 @@ background-color: #ffffff00;
   padding: 2px 16px;
 }
 .akademik{
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 
@@ -449,9 +470,12 @@ background-color: #ffffff00;
   margin-top: auto;
 }
 .buttoncourses1{
+  color: #fff;
+  margin-left: -17px;
   font-size: 20px;
-  width: 34n0px;
-  margin-top: auto;
+  width: 360px;
+  height: 60px;
+  margin-top: -3px;
 }
 .btn-primary1{
   width: 340px;
@@ -479,7 +503,7 @@ background-color: #ffffff00;
   height: max-content;
 }
 #popular1{
-  height: 2600px;
+  height: 2300px;
 }
 #popular{
   height: 5px;
@@ -517,7 +541,8 @@ a:hover{
   height: 160px;
 }
 .feature-1{
-  margin-top: -50px;
+  margin-top: 0px;
+  margin-left: -18px;
   margin-bottom: 100px;
 }
 .popularrow1{
@@ -584,7 +609,7 @@ h3{
   height: 1560px;
 }
 #academics{
-  height: 1220px;
+  height: 1360px;
 }
 #profile{
   margin-left: -40px;
@@ -603,6 +628,18 @@ h3{
 }
 .textprofile{
   margin-top: -90px;
+}
+.bordercourse{
+  margin-bottom: -60px;
+  margin-left: 10px;
+}
+.imgcourse{
+  width: 360px;
+  margin-left: -18px;
+}
+.registerlabel{
+  width: 100px;
+  height: 60px;
 }
 
 
